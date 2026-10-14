@@ -43,7 +43,7 @@
     }
   ],
   "socket": false,
-  "manifest": "",
-  "download": "",
-  "url": ""
+  "manifest": "https://raw.githubusercontent.com/Gabrielsaopa/Personagens-M-scaras/main/module.json",
+  "download": "https://raw.githubusercontent.com/Gabrielsaopa/Personagens-M-scaras/main/personagens-mascaras-v0.1.zip",
+  "url": "https://github.com/Gabrielsaopa/Personagens-M-scaras"
 }
