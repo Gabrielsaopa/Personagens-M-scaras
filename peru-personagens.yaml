@@ -1,0 +1,3250 @@
+_id: fldAOhbVrpoiVgRV
+name: Aliados ou Independentes
+type: folder
+folder: null
+sort: 0
+sorting: a
+color: null
+flags: {}
+---
+_id: fldB5IfLBcbfnoGM
+name: Adversários e Monstros
+type: folder
+folder: null
+sort: 1
+sorting: a
+color: null
+flags: {}
+---
+_id: actG6g3Ot1OGMmjx
+name: Professor Nemesio Sánchez
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 50
+    con:
+      value: 55
+    siz:
+      value: 60
+    dex:
+      value: 65
+    app:
+      value: 65
+    int:
+      value: 75
+    pow:
+      value: 50
+    edu:
+      value: 85
+  attribs:
+    hp:
+      value: 11
+      max: 11
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 0
+    san:
+      value: 50
+      max: 99
+    mov:
+      value: 8
+    armor:
+      value: 0
+    auto: false
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Arqueólogo acadêmico
+    age: '35'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Arqueólogo acadêmico de 35 anos. Especialista em culturas andinas. Embora tenha algum conhecimento do Mythos de Cthulhu, ele não acredita que seja real antes dos eventos deste cenário. Até ser apresentado a provas incontestáveis, ele afirma que coisas relacionadas ao Mythos não passam de folclore ou invenciones.</p>
+items:
+  - _id: sklbJmTPSIAoCLrZ
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpn3aWZkSBvrjn9W
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklbJmTPSIAoCLrZ
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklvgfygw2wMqZcU
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 32
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklDIh7yfJs1ON43
+    name: Antropologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Antropologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklxKmTecQoXsf2o
+    name: Arqueologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 80
+      skillName: Arqueologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl3gyrDO1xkxwnQ
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklrS7RPeMOkIUpk
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklDyr7OSJoRu1XX
+    name: História
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: História
+      specialization: ''
+      properties:
+        push: true
+  - _id: skldo0cZuzren68K
+    name: Lábia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Lábia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl4TunPFz46PDjq
+    name: Nível de Crédito
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Nível de Crédito
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklipVJIqVLB5Lzx
+    name: Persuasão
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Persuasão
+      specialization: ''
+      properties:
+        push: true
+  - _id: skloiGFfWd3hjOkY
+    name: Usar Bibliotecas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Usar Bibliotecas
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklRBMeyyMDHqJ38
+    name: Língua (Inglês)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Inglês
+      specialization: Inglês
+      properties: Language
+  - _id: sklaRUhR4IWrXPvh
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 80
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+  - _id: tltsBkDa9U4UqGWl
+    name: Visão Aguçada
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Concede um dado de bônus a testes de Encontrar.
+      type:
+        mental: true
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actVZprkYSgy3c2E
+name: Jackson Elias
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 70
+    con:
+      value: 85
+    siz:
+      value: 65
+    dex:
+      value: 65
+    app:
+      value: 55
+    int:
+      value: 80
+    pow:
+      value: 80
+    edu:
+      value: 70
+  attribs:
+    hp:
+      value: 15
+      max: 15
+    mp:
+      value: 16
+      max: 16
+    lck:
+      value: 80
+    san:
+      value: 76
+      max: 99
+    mov:
+      value: 6
+    armor:
+      value: 1
+    auto: false
+    db:
+      value: +1D4
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Investigador destemido
+    age: '41'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Investigador destemido de 41 anos. Autor de diversos livros sobre cultos e o oculto. Está no Peru investigando a Irmandade da Serpente e a pirâmide da Serpente de Yig.</p>
+items:
+  - _id: sklWkI9X7H6aMuFb
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnh7x41Ztpdp4K8
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklWkI9X7H6aMuFb
+      range:
+        normal:
+          damage: 1D3+1D4
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklffUF0eWIXiiQE
+    name: Arma de Fogo (Revólver .45)
+    type: skill
+    img: systems/CoC7/assets/icons/skills/firearms_handgun.svg
+    system:
+      description:
+        value:
+          firearm: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Revólver .45
+      specialization: Revólver .45
+      properties: Firearms
+  - _id: wpn8JkqH3MB9n7IW
+    name: Revólver .45
+    type: weapon
+    img: icons/svg/explosion.svg
+    system:
+      skill:
+        main:
+          id: sklffUF0eWIXiiQE
+      range:
+        normal:
+          damage: 1D10+2
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: '100'
+      properties:
+        rngd: true
+  - _id: sklUSmTtzQPxC5HC
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklhpoevbLJoLoae
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 35
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklTOdoe5c3veGpr
+    name: Arte/Ofício (Escrita)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Arte/Ofício (Escrita)
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklQFnIiU74KKEpY
+    name: Charme
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Charme
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklEZAmggQBwBAD3
+    name: Consertos Mecânicos
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Consertos Mecânicos
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklUdRPPgdzUvZ3g
+    name: Dirigir Automóveis
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Dirigir Automóveis
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklpmmICiBlrDp37
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skleCZ32JgdPI1af
+    name: Escalar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Escalar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl7W2pkAFEn3z5d
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklkyayq7YYDsBS9
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklUYJQTFjmsn9dL
+    name: Lábia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Lábia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklVIdVuddLEG62H
+    name: Mundo Natural
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Mundo Natural
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklkd9Gf2leMeR3p
+    name: Mythos de Cthulhu
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 4
+      skillName: Mythos de Cthulhu
+      specialization: ''
+      properties:
+        noxpgain: true
+  - _id: sklzh84KpLMcNfAQ
+    name: Nível de Crédito
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Nível de Crédito
+      specialization: ''
+      properties:
+        noxpgain: true
+        push: true
+  - _id: sklLKHu7qnQTupqz
+    name: Ocultismo
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Ocultismo
+      specialization: ''
+      properties:
+        push: true
+  - _id: skliQPtDu7W7eaDN
+    name: Persuasão
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Persuasão
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklKgeInGqi7w4e4
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklpxskC1ITtNZPH
+    name: Sobrevivência (Montanhas)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Sobrevivência (Montanhas)
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklaQ0Jt7Qg84iqh
+    name: Usar Bibliotecas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Usar Bibliotecas
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl4gVJjrsMnTvnR
+    name: Língua (Chinês (Cantonês))
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 20
+      skillName: Chinês (Cantonês)
+      specialization: Chinês (Cantonês)
+      properties: Language
+  - _id: sklO2qGFq562dfOB
+    name: Língua (Inglês)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 85
+      skillName: Inglês
+      specialization: Inglês
+      properties: Language
+  - _id: skl1rcavXiOqkVCJ
+    name: Língua (Francês)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Francês
+      specialization: Francês
+      properties: Language
+  - _id: sklTBJahe84S5jIc
+    name: Língua (Hindustani)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Hindustani
+      specialization: Hindustani
+      properties: Language
+  - _id: skl1xLJjBictx57Y
+    name: Língua (Português)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Português
+      specialization: Português
+      properties: Language
+  - _id: skl3c5wnRpQgwXJ4
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+  - _id: tlt3ANVj77p3kZZl
+    name: Alerta
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Nunca é surpreendido em combate.
+      type:
+        mental: true
+  - _id: tlt4AblV7vY7AZQ3
+    name: Casca-grossa
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Absorve dano; pode gastar 10 pontos de Sorte para ignorar até 5 de dano recebidos em uma rodada de combate.
+      type:
+        physical: true
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: act4gXBolZ9SHDdJ
+name: Trinidad Rizo
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 55
+    con:
+      value: 65
+    siz:
+      value: 50
+    dex:
+      value: 65
+    app:
+      value: 55
+    int:
+      value: 70
+    pow:
+      value: 50
+    edu:
+      value: 65
+  attribs:
+    hp:
+      value: 11
+      max: 11
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 0
+    san:
+      value: 50
+      max: 99
+    mov:
+      value: 9
+    armor:
+      value: 0
+    auto: false
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Estudante empolgada
+    age: '19'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Estudante de arqueologia de 19 anos, empolgada e ansiosa para participar da expedição. Estudante do Professor Nemesio Sánchez.</p>
+items:
+  - _id: sklom06Dwt0Y3oob
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnQmzvr3e9XrwPG
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklom06Dwt0Y3oob
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklzR1Iv8bh4qlL9
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 32
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklqcgMBwUYuBMGh
+    name: Antropologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 20
+      skillName: Antropologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skly5KmqcTBaH7ZI
+    name: Arqueologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Arqueologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklRU8VVQmxBe8Q6
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklvNuQ2hU5tGtQA
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skluzSsJimAQ8yRV
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl5lNKtzJ1atsnB
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 35
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklYLMPuDCCRnGEY
+    name: História
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: História
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl59YVkQfsGQONv
+    name: Nível de Crédito
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 20
+      skillName: Nível de Crédito
+      specialization: ''
+      properties:
+        noxpgain: true
+        push: true
+  - _id: sklf08WpRtoZmjbc
+    name: Usar Bibliotecas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Usar Bibliotecas
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklpEN2XeDA4OKmT
+    name: Língua (Inglês)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 10
+      skillName: Inglês
+      specialization: Inglês
+      properties: Language
+  - _id: sklSyFzpjPSa5W3X
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actPeX9PcWb8pm1b
+name: Petronila Cupitina
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 30
+    con:
+      value: 55
+    siz:
+      value: 45
+    dex:
+      value: 35
+    app:
+      value: 45
+    int:
+      value: 65
+    pow:
+      value: 70
+    edu:
+      value: 50
+  attribs:
+    hp:
+      value: 10
+      max: 10
+    mp:
+      value: 14
+      max: 14
+    lck:
+      value: 0
+    san:
+      value: 70
+      max: 99
+    mov:
+      value: 3
+    armor:
+      value: -1
+    auto: false
+    db:
+      value: '-1'
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Hoteleira pragmática
+    age: '71'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Hoteleira pragmática de 71 anos. Dona do hotel onde os investigadores se hospedam. Conhece todos os fofocas da cidade e não se deixa abalar por nada.</p>
+items:
+  - _id: sklp62hDiZDQHJMu
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpn8W5CN0U5GB16J
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklp62hDiZDQHJMu
+      range:
+        normal:
+          damage: 1D3-1
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklC5kV3ECqWp1Or
+    name: Briga (Bengala)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Bengala
+      specialization: Bengala
+      properties: Fighting
+  - _id: wpnXXHFOprCeTspr
+    name: Bengala
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklC5kV3ECqWp1Or
+      range:
+        normal:
+          damage: 1D6-1
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklvu5IfijoySjTn
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 17
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: skleAAvIDAdn1Ay5
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklXL8Sb24WKyEa8
+    name: Balançar Bengala Ameaçadoramente
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Balançar Bengala Ameaçadoramente
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklwtWy2591AIVVI
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklZM5oForBFbyvQ
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklRZzUk1D6iNIb6
+    name: Intimidação
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Intimidação
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklzLKQbfPBi3Dld
+    name: Nível de Crédito
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Nível de Crédito
+      specialization: ''
+      properties:
+        noxpgain: true
+        push: true
+  - _id: sklqyunDuvW4yrW8
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl1Aq1fEbVId8wo
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actEECvl9dq83Eh0
+name: Nayra
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 40
+    con:
+      value: 55
+    siz:
+      value: 50
+    dex:
+      value: 50
+    app:
+      value: 50
+    int:
+      value: 65
+    pow:
+      value: 80
+    edu:
+      value: 65
+  attribs:
+    hp:
+      value: 10
+      max: 10
+    mp:
+      value: 16
+      max: 16
+    lck:
+      value: 0
+    san:
+      value: 80
+      max: 99
+    mov:
+      value: 3
+    armor:
+      value: 0
+    auto: false
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Curandeira e sábia
+    age: '76'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Curandeira e sábia de 76 anos. Conhece as tradições andinas e os segredos da região. Possui poderes psíquicos de clarividência e divinação. As perícias psíquicas de Nayra se aplicam tanto em jogos clássicos quanto em jogos pulp.</p>
+items:
+  - _id: sklNjpiEQhK8nDSq
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnXxkMM9VThX0k9
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklNjpiEQhK8nDSq
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: skltgLb7tKR69yz8
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklTmeLS1OpgSXt2
+    name: Clarividência e Divinação
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Clarividência e Divinação
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklRMZhYKYcwIBQx
+    name: Conhecimento (Folclore Peruano)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Conhecimento (Folclore Peruano)
+      specialization: ''
+      properties:
+        push: true
+  - _id: skleGPva2A0FgB9x
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklO51DTjBlUH9Pr
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklNZ6IXEDB0ULru
+    name: História
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: História
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl2p17fr4CpWDKN
+    name: Medicina
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Medicina
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklQyvbF2ulFnwZq
+    name: Mythos de Cthulhu
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 2
+      skillName: Mythos de Cthulhu
+      specialization: ''
+      properties:
+        noxpgain: true
+  - _id: sklvr4MS4rJaH8mf
+    name: Ocultismo
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Ocultismo
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklpUAFJWpSEPTFC
+    name: Persuasão
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Persuasão
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklYbfsozSptQLxE
+    name: Primeiros Socorros
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Primeiros Socorros
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklJHwBVJvwSDrtq
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklohUmuhVI8WSlm
+    name: Língua (Aymara)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Aymara
+      specialization: Aymara
+      properties: Language
+  - _id: sklnVErULWHMsg1m
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+  - _id: tltsoxltaTIircdJ
+    name: 'Poder Psíquico: Divinação'
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Divinação 60%.
+      type:
+        mental: true
+  - _id: tltsS8iO3WFg3aKs
+    name: 'Poder Psíquico: Clarividência'
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Clarividência 50%.
+      type:
+        mental: true
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actFCfMc4BVuMqbf
+name: Julio Céspedes
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 65
+    con:
+      value: 65
+    siz:
+      value: 65
+    dex:
+      value: 55
+    app:
+      value: 40
+    int:
+      value: 50
+    pow:
+      value: 45
+    edu:
+      value: 45
+  attribs:
+    hp:
+      value: 13
+      max: 13
+    mp:
+      value: 9
+      max: 9
+    lck:
+      value: 0
+    san:
+      value: 45
+      max: 99
+    mov:
+      value: 8
+    armor:
+      value: 1
+    auto: false
+    db:
+      value: +1D4
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Pai protetor
+    age: '38'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Pai protetor de 38 anos. Seu filho Domingo foi gravemente ferido. Está disposto a tudo para protegê-lo e encontrar os responsáveis.</p>
+items:
+  - _id: sklezFeKORdjjZK8
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpntfphJWAMMYNoX
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklezFeKORdjjZK8
+      range:
+        normal:
+          damage: 1D3+1D4
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklHyC6Ct3LBtKNd
+    name: Arma de Fogo (Rifle)
+    type: skill
+    img: systems/CoC7/assets/icons/skills/firearms_rifle_shotgun.svg
+    system:
+      description:
+        value:
+          firearm: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Rifle
+      specialization: Rifle
+      properties: Firearms
+  - _id: wpnN9Vg8WnOnqQfk
+    name: Rifle
+    type: weapon
+    img: icons/svg/explosion.svg
+    system:
+      skill:
+        main:
+          id: sklHyC6Ct3LBtKNd
+      range:
+        normal:
+          damage: 2D6+4
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: true
+  - _id: sklplJekaACSMEsc
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklosTsS3DeRo7qY
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 35
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklYOLQZ7mBhIoPj
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl6r0jedkYtMV0K
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl6sChDStSz8rGI
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actbOMZpTktJaJAf
+name: Domingo Céspedes
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldAOhbVrpoiVgRV
+system:
+  characteristics:
+    str:
+      value: 60
+    con:
+      value: 55
+    siz:
+      value: 55
+    dex:
+      value: 65
+    app:
+      value: 60
+    int:
+      value: 60
+    pow:
+      value: 55
+    edu:
+      value: 50
+  attribs:
+    hp:
+      value: 3
+      max: 11
+    mp:
+      value: 11
+      max: 11
+    lck:
+      value: 0
+    san:
+      value: 55
+      max: 99
+    mov:
+      value: 0
+      max: 9
+    armor:
+      value: 0
+    auto: false
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Filho gravemente ferido
+    age: '15'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Filho de Julio Céspedes, 15 anos. Foi gravemente ferido por um kharisiri. Atualmente os pontos de vida e movimento estão reduzidos devido ao ferimento. PVs atuais: 3 (máximo 11). Movimento atual: 0 (máximo 9). Esquiva normalmente 27%, atualmente 10%.</p>'
+items:
+  - _id: sklo9R13KL8bWR0r
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnKcWWlEHPC6rlL
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklo9R13KL8bWR0r
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklBO0FfEwAvuQg2
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 10
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklkvASFsQ8z0WJc
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 35
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklDfuquhXz3G0aQ
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl3IDAdmHxNWFOC
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklWdnrJi7sC4SFh
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: 1
+---
+_id: actZoMZwoOmNqRWU
+name: Augustus Larkin (humano)
+type: npc
+img: icons/svg/mystery-man.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 45
+    con:
+      value: 35
+    siz:
+      value: 65
+    dex:
+      value: 45
+    app:
+      value: 45
+    int:
+      value: 60
+    pow:
+      value: 50
+    edu:
+      value: 65
+  attribs:
+    hp:
+      value: 10
+      max: 10
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 50
+    san:
+      value: 9
+      max: 99
+    mov:
+      value: 7
+    armor:
+      value: 0
+    auto: false
+    special:
+      attacksPerRound: 1
+  infos:
+    occupation: Hospedeiro de Nyarlathotep (forma humana)
+    age: '32'
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: <p>Augustus Larkin, 32 anos. Este perfil é para Larkin em forma humana. Se ele ficar completamente possuído, veja Augustus Larkin Possuído por Nyarlathotep. Larkin ainda possui um resquício de humanidade (SAN 09).</p>
+items:
+  - _id: sklo16hD8hP1jF7T
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnsGTrA1EEpDJjy
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklo16hD8hP1jF7T
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklm6MGV4i3erXY2
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 22
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklAv7YGr0asUt1L
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklLQF3jCIEwvJWI
+    name: Charme
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 45
+      skillName: Charme
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklyD7u3mSpKyo2X
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklAcuVET6ZyyQY0
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 55
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklPjF9ciG9Lv3g3
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl2CgH6DaUjA3Pj
+    name: Intimidação
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Intimidação
+      specialization: ''
+      properties:
+        push: true
+  - _id: skleEYqvNSzPf2v2
+    name: Lábia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Lábia
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklR2Iy9uOT4WF3I
+    name: Mythos de Cthulhu
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 27
+      skillName: Mythos de Cthulhu
+      specialization: ''
+      properties:
+        noxpgain: true
+  - _id: sklcNepOR6soVfBg
+    name: Nível de Crédito
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Nível de Crédito
+      specialization: ''
+      properties:
+        noxpgain: true
+        push: true
+  - _id: sklWOT3gCkSt5bcu
+    name: Persuasão
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Persuasão
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklYdswxBjpHAKRY
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: true
+  - _id: skllklfN3yNRpF6L
+    name: Usar Bibliotecas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Usar Bibliotecas
+      specialization: ''
+      properties:
+        push: true
+  - _id: skljoDOqDqQa5ZD5
+    name: Língua (Inglês)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 65
+      skillName: Inglês
+      specialization: Inglês
+      properties: Language
+  - _id: sklsRIkeC8wLtO9B
+    name: Língua (Kikuyu)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 15
+      skillName: Kikuyu
+      specialization: Kikuyu
+      properties: Language
+  - _id: sklSqD2tmy2EgpyK
+    name: Língua (Espanhol)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Espanhol
+      specialization: Espanhol
+      properties: Language
+  - _id: sklwKsSsb1QzraK3
+    name: Língua (Swahili)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Swahili
+      specialization: Swahili
+      properties: Language
+  - _id: tltRXVd6MVF155sX
+    name: 'Poder Psíquico: Divinação'
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Divinação 60%.
+      type:
+        mental: true
+prototypeToken:
+  texture:
+    src: icons/svg/mystery-man.svg
+  disposition: -1
+---
+_id: acthgp4IiyDxQ8VS
+name: Augustus Larkin Possuído por Nyarlathotep
+type: creature
+img: systems/CoC7/assets/icons/floating-tentacles.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 60
+    con:
+      value: 95
+    siz:
+      value: 65
+    dex:
+      value: 95
+    app:
+      value: 45
+    int:
+      value: 430
+    pow:
+      value: 500
+    edu:
+      value: 0
+  attribs:
+    hp:
+      value: 16
+      max: 16
+    mp:
+      value: 100
+      max: 100
+    lck:
+      value: 0
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 7
+    armor:
+      value: 1
+    auto: false
+    db:
+      value: +1D4
+    special:
+      sanLoss:
+        checkPassed: '0'
+        checkFailled: '0'
+      attacksPerRound: 1
+  infos:
+    occupation: Arauto das trevas
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Arauto das trevas, forma possuída de Augustus Larkin por Nyarlathotep. Armadura: nenhuma; Larkin pode ser morto por meios físicos normais. Ao contrário de outros hospedeiros possuídos por Nyarlathotep, Larkin não se assume uma forma monstruosa ao morrer. Feitiços: Nyarlathotep conhece todos os feitiços do Mythos, usa Sugestão Mental quando necessário. Perda de Sanidade: nenhuma.</p>'
+items:
+  - _id: sklXQR1iOg5OPctY
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 90
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnCcLxUif6suVAl
+    name: Punhos
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklXQR1iOg5OPctY
+      range:
+        normal:
+          damage: 1D4+1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklmiYI4xHG6r1kq
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: skl608E9ZsV3vZhD
+    name: Arremessar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 80
+      skillName: Arremessar
+      specialization: ''
+      properties:
+        push: false
+  - _id: skl9ejW9o3RURz92
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 99
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklZJxfYzaqIhDxR
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 99
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklVRqLy0O8xgRoE
+    name: Intimidação
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 99
+      skillName: Intimidação
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklbN48Ju6NoPeO0
+    name: Psicologia
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 90
+      skillName: Psicologia
+      specialization: ''
+      properties:
+        push: false
+  - _id: tltD6StPAhic8ctF
+    name: Alerta
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Nunca é surpreendido em combate.
+      type:
+        mental: true
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/floating-tentacles.svg
+  disposition: -2
+---
+_id: acte5fuMjeirNOLJ
+name: Luis de Mendoza (kharisiri)
+type: creature
+img: systems/CoC7/assets/icons/cultist.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 100
+    con:
+      value: 90
+    siz:
+      value: 65
+    dex:
+      value: 75
+    app:
+      value: 50
+    int:
+      value: 30
+    pow:
+      value: 50
+    edu:
+      value: 20
+  attribs:
+    hp:
+      value: 15
+      max: 15
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 25
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 7
+    armor:
+      value: 2
+    auto: false
+    db:
+      value: +1D6
+    special:
+      sanLoss:
+        checkPassed: '0'
+        checkFailled: 1D6
+      attacksPerRound: 1
+  infos:
+    occupation: Conquistador morto-vivo
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Conquistador espanhol morto-vivo, um kharisiri (sanguessuga imortal). Agarrar (mnbr): segura e prende uma vítima, pronto para sugar a vida dela. Na rodada seguinte, sua boca se prende ao corpo da vítima e começa a sugar gordura, sangue e outros fluidos, devorando 1D10 de FOR, 1D10 de CON, e 1D4 de TAM por rodada até se saciar ou parar (com zero de CON a vítima morre). A vítima pode tentar libertar-se com um teste resistido de FOR. Se sobreviver, recupera FOR e CON à taxa de 1D10 pontos por semana, e 1 de TAM por semana, mas fica com cicatriz hedionda. Armadura: regenera 1 PV por rodada após atingir 0. Só pode ser morto por desmembramento completo ou incineração. Se apenas decapitado, pode se recuperar se encontrar a cabeça e recolocá-la. Se a conexão com o Pai dos Vermes for cortada pela restauração do sigilo, perde a regeneração e desfaz-se à taxa de 1 PV a cada 10 minutos. Regenera 2 PVs por rodada. Feitiços: Contactar Pai dos Vermes (Nyarlathotep). Perda de Sanidade: 0/1D6 por ver na forma monstruosa ou em transformação; nenhuma em forma humana.</p>'
+items:
+  - _id: skl8IALVUj4APg1F
+    name: Lutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 75
+      skillName: Lutar
+      specialization: Lutar
+      properties: Fighting
+  - _id: wpnNA88rcSxnCC8p
+    name: Garras/Socar
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: skl8IALVUj4APg1F
+      range:
+        normal:
+          damage: 1D3+1D6
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: skl2xgRxI5Pwdzrm
+    name: Agarrar (mnbr)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 75
+      skillName: Agarrar
+      specialization: Agarrar
+      properties: Fighting
+  - _id: skl9h820DfQnPOMb
+    name: Lutar (Espada)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 50
+      skillName: Espada
+      specialization: Espada
+      properties: Fighting
+  - _id: wpndYvpiYKne1WJn
+    name: Espada de conquistador
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: skl9h820DfQnPOMb
+      range:
+        normal:
+          damage: 1D8+1D6
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklLn03ovXjY5Mar
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: skl2jiIqZlhQ3bia
+    name: Encontrar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Encontrar
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklwYYpLublqdiVA
+    name: Escutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Escutar
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklHhVeECXxGLgCG
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklo8NcUY63QHtDP
+    name: Intimidação
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Intimidação
+      specialization: ''
+      properties:
+        push: false
+  - _id: tlt9bdE2zBRgFT6C
+    name: Ataques Rápidos
+    type: talent
+    img: icons/svg/upgrade.svg
+    system:
+      source: ''
+      description:
+        value: Pode gastar 10 pontos de Sorte para ganhar outro ataque corpo a corpo em uma única rodada de combate.
+      type:
+        physical: true
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/cultist.svg
+  disposition: -2
+---
+_id: actqx9jR7Eef1ffB
+name: Kharisiri (sanguessuga imortal)
+type: creature
+img: systems/CoC7/assets/icons/cultist.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 95
+    con:
+      value: 90
+    siz:
+      value: 65
+    dex:
+      value: 65
+    app:
+      value: 50
+    int:
+      value: 40
+    pow:
+      value: 50
+    edu:
+      value: 10
+  attribs:
+    hp:
+      value: 15
+      max: 15
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 0
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 7
+    armor:
+      value: 1
+    auto: false
+    db:
+      value: +1D4
+    special:
+      sanLoss:
+        checkPassed: '0'
+        checkFailled: 1D6
+      attacksPerRound: 1
+  infos:
+    occupation: Sanguessuga imortal
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Kharisiri — sanguessugas imortais, humanos transformados pelas larvas do Pai dos Vermes. Variações de estatísticas (1 a 4): FOR 90-100, CON 85-95, TAM 60-75, DES 55-75, POD 45-55, PVs 14-16, DX +1D4/+1D6, Corpo 1-2. Agarrar (mnbr): segura e prende uma vítima para sugar sua vida — devora 1D10 de FOR, 1D10 de CON e 1D4 de TAM por rodada. Vítima pode libertar-se com teste resistido de FOR. Kharisiri não se esquivam. Armadura: regenera 1 PV por rodada após atingir 0. Só pode ser morto por desmembramento completo ou incineração. Se a conexão com o Pai dos Vermes for cortada pela restauração do selo, perdem a regeneração e desfazem-se. Feitiços: Contactar Pai dos Vermes (Nyarlathotep). Perda de Sanidade: 0/1D6 na forma monstruosa; nenhuma em forma humana.</p>'
+items:
+  - _id: sklTuyMHsDGMBgYS
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnh2PP4XJU3nBC4
+    name: Garras/Socar
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklTuyMHsDGMBgYS
+      range:
+        normal:
+          damage: 1D3+1D4
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: skloAv0DzAUguBuQ
+    name: Agarrar (mnbr)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Agarrar
+      specialization: Agarrar
+      properties: Fighting
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/cultist.svg
+  disposition: -2
+---
+_id: act2JX0NNRPJbM7Q
+name: Múmia Animada
+type: creature
+img: systems/CoC7/assets/icons/floating-tentacles.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 80
+    con:
+      value: 80
+    siz:
+      value: 40
+    dex:
+      value: 35
+    app:
+      value: 0
+    int:
+      value: 0
+    pow:
+      value: 5
+    edu:
+      value: 0
+  attribs:
+    hp:
+      value: 12
+      max: 12
+    mp:
+      value: 1
+      max: 1
+    lck:
+      value: 0
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 6
+    armor:
+      value: 0
+    auto: false
+    special:
+      sanLoss:
+        checkPassed: '0'
+        checkFailled: 1D8
+      attacksPerRound: 1
+  infos:
+    occupation: Suposto monte de trapos
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Essas formas ressequidas são os restos das vítimas dos kharisiri, animadas por uma das larvas do deus. Ao contrário do kharisiri, são irracionais. Entrar em corpo (mnbr): uma larva pode entrar no corpo de um alvo através de qualquer orifício ou ferimento, desde que passe pelo menos uma rodada rastejando até o lugar. A gosma que exsuda da larva causa 1 ponto de dano por rodada se entrar em contato com pele nua. Múmias não se esquivam. Armadura: lesões graves causadas contra o tronco causam a perda de um membro; caso contrário, ignorar todo dano exceto na cabeça (um dado de penalidade para atingir a cabeça). Feitiços: nenhum. Perda de Sanidade: 0/1D8 pontos de Sanidade por encontrar uma múmia animada.</p>'
+items:
+  - _id: sklgVVxZiJdL9JJv
+    name: Briga
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 30
+      skillName: Brawl
+      specialization: Brawl
+      properties: Fighting
+  - _id: wpnQhAw3Q8WB36Ud
+    name: Soco/Rasgar
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: sklgVVxZiJdL9JJv
+      range:
+        normal:
+          damage: 1D3
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: skl9sMtwgKGnjQEo
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 40
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: true
+  - _id: skl2gw2JxhWrKoZB
+    name: Parecer uma Pilha de Trapos
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 90
+      skillName: Parecer uma Pilha de Trapos
+      specialization: ''
+      properties:
+        push: false
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/floating-tentacles.svg
+  disposition: -2
+---
+_id: acthaFVBliyIToGJ
+name: Larva de Kharisiri
+type: creature
+img: systems/CoC7/assets/icons/floating-tentacles.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 10
+    con:
+      value: 45
+    siz:
+      value: 5
+    dex:
+      value: 85
+    app:
+      value: 0
+    int:
+      value: 10
+    pow:
+      value: 50
+    edu:
+      value: 0
+  attribs:
+    hp:
+      value: 5
+      max: 5
+    mp:
+      value: 10
+      max: 10
+    lck:
+      value: 0
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 9
+    armor:
+      value: -2
+    auto: false
+    db:
+      value: '-2'
+    special:
+      sanLoss:
+        checkPassed: '0'
+        checkFailled: 1D3
+      attacksPerRound: 1
+  infos:
+    occupation: Semente de um deus
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Embora pareçam entidades vivas, cada uma é na verdade um fragmento da carne do Pai dos Vermes. Tamanho aproximado de um punho humano, massa amorfa de protoplasma branco semelhante a gordura coagulada e rançosa. Cheira a carne podre, é escorregadia e pegajosa. Fluidos cáusticos causam queimaduras (1 ponto de dano por rodada de exposição). Deixam resíduo gorduroso. Fora de um hospedeiro, imediatamente tentam encontrar um novo. Ágeis, deslizam por superfícies e escalam paredes. Entram pela boca ou outros orifícios/ferimentos. Uma vez dentro, secreções param de causar dor mas vítima sente dor intolerável. Hospedeiro recém-infectado precisa de teste Extremo de CON para permanecer consciente. A menos que removida, o hospedeiro se torna um kharisiri. Entrar em corpo (mnbr): não é manobra de combate normal, não sujeita a penalidades por pouco Corpo. Armadura: nenhuma. Feitiços: nenhum. Perda de Sanidade: 0/1D3.</p>'
+items:
+  - _id: skl1SrblrSWt6vwa
+    name: Lutar
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Lutar
+      specialization: Lutar
+      properties: Fighting
+  - _id: wpnl3jKQzejVObfV
+    name: Toque cáustico
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: skl1SrblrSWt6vwa
+      range:
+        normal:
+          damage: 1D3-2
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklHnyADvkxtUuX8
+    name: Entrar em corpo (mnbr)
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 25
+      skillName: Entrar em corpo
+      specialization: Entrar em corpo
+      properties: Fighting
+  - _id: sklKMf4djkWNdRfr
+    name: Esquiva
+    type: skill
+    img: systems/CoC7/assets/icons/skills/dodge.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 75
+      skillName: Esquiva
+      specialization: ''
+      properties: ''
+  - _id: sklCQBFMCArnWGhw
+    name: Apertar-se em Passagens Pequenas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 90
+      skillName: Apertar-se em Passagens Pequenas
+      specialization: ''
+      properties:
+        push: false
+  - _id: sklBhsRRLFHQtcoz
+    name: Escalar
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 70
+      skillName: Escalar
+      specialization: ''
+      properties:
+        push: true
+  - _id: sklMdant8nXiWqsu
+    name: Furtividade
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 60
+      skillName: Furtividade
+      specialization: ''
+      properties:
+        push: true
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/floating-tentacles.svg
+  disposition: -2
+---
+_id: actXwwU90P0jpgjq
+name: Pai dos Vermes
+type: creature
+img: systems/CoC7/assets/icons/floating-tentacles.svg
+folder: fldB5IfLBcbfnoGM
+system:
+  characteristics:
+    str:
+      value: 200
+    con:
+      value: 150
+    siz:
+      value: 450
+    dex:
+      value: 65
+    app:
+      value: 0
+    int:
+      value: 1
+    pow:
+      value: 500
+    edu:
+      value: 0
+  attribs:
+    hp:
+      value: 60
+      max: 60
+    mp:
+      value: 100
+      max: 100
+    lck:
+      value: 0
+    san:
+      value: 0
+      max: 0
+    mov:
+      value: 0
+    armor:
+      value: 8
+    auto: false
+    db:
+      value: +7D6
+    special:
+      sanLoss:
+        checkPassed: 1D6
+        checkFailled: 1D20
+      attacksPerRound: 1
+  infos:
+    occupation: Avatar aprisionado de Nyarlathotep
+    age: —
+  flags:
+    locked: true
+    displayFormula: false
+  biography:
+    personalDescription:
+      value: '<p>Massa monstruosa e convoluta feita inteiramente de gordura rançosa com vida não natural. Superfície iridescente se contorce com larvas e vermes. Cria pseudópodes instáveis que gotejam fluido branco, ou emana jatos de fluidos de pústulas explosivas. Avatar menor de Nyarlathotep — em grande parte imóvel e sem inteligência sobre-humana. Enquanto os selos da pirâmide permanecerem intactos, está contido. Ataques corpo a corpo: pseudópodes alcançam até 6 metros. Pústulas explosivas: quem estiver dentro de 100 metros sofre 2D10 de dano por queimaduras; cobertura leve não protege, cobertura pesada pode negar ou reduzir à metade. Especial: fedor de decomposição tão avassalador que investigadores em sua presença precisam passar em teste de CON ou são incapacitados por náuseas e vômitos. O Pai dos Vermes não se esquiva. Armadura: nenhuma. Feitiços: nenhum; este avatar idiótico não conta com poder mágico. Perda de Sanidade: 1D6/1D20 pontos de Sanidade.</p>'
+items:
+  - _id: skl1QZwez3VcBbD6
+    name: Lutar (pseudópodes)
+    type: skill
+    img: systems/CoC7/assets/icons/skills/fighting_brawl.svg
+    system:
+      description:
+        value:
+          fighting: true
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 85
+      skillName: Pseudópodes
+      specialization: Pseudópodes
+      properties: Fighting
+  - _id: wpne3uKBKzTOAshz
+    name: Pseudópodes
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      skill:
+        main:
+          id: skl1QZwez3VcBbD6
+      range:
+        normal:
+          damage: 7D6
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: false
+        addb: true
+  - _id: sklb9ukZ8ND1S6xf
+    name: Pústulas explosivas
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value:
+          combat: true
+          special: true
+      base: 0
+      adjustments:
+        personal: 100
+      skillName: Pústulas explosivas
+      specialization: Pústulas explosivas
+      properties: ''
+  - _id: wpnB2gpBLzHfz3tV
+    name: Pústulas explosivas
+    type: weapon
+    img: icons/svg/explosion.svg
+    system:
+      skill:
+        main:
+          id: sklb9ukZ8ND1S6xf
+      range:
+        normal:
+          damage: 2D10
+      usesPerRound:
+        max: ''
+        burst: ''
+        bullets: ''
+        malfunction: ''
+      properties:
+        rngd: true
+  - _id: sklvovXkeGOhHGm5
+    name: Emite Odores Nefastos
+    type: skill
+    img: systems/CoC7/assets/icons/skills.svg
+    system:
+      description:
+        value: ''
+      base: 0
+      adjustments:
+        personal: 100
+      skillName: Emite Odores Nefastos
+      specialization: ''
+      properties:
+        push: false
+prototypeToken:
+  texture:
+    src: systems/CoC7/assets/icons/floating-tentacles.svg
+  disposition: -2
