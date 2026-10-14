@@ -1,0 +1,49 @@
+{
+  "id": "personagens-mascaras",
+  "title": "Personagens - Máscaras de Nyarlathotep",
+  "description": "Compêndio de personagens não-jogadores e criaturas do cenário Máscaras de Nyarlathotep (Call of Cthulhu 7ª Edição) para Foundry VTT. Capítulo: Peru.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Moisés Dantas"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.10.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "peru-personagens",
+      "label": "Peru - Personagens",
+      "system": "CoC7",
+      "type": "Actor",
+      "path": "packs/peru-personagens",
+      "ownership": {
+        "PLAYER": "OBSERVER"
+      }
+    }
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/Gabrielsaopa/Personagens-M-scaras/main/module.json",
+  "download": "https://raw.githubusercontent.com/Gabrielsaopa/Personagens-M-scaras/main/personagens-mascaras-v0.1-FINAL.zip",
+  "url": "https://github.com/Gabrielsaopa/Personagens-M-scaras"
+}
