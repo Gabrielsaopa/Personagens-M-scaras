@@ -1,7 +1,7 @@
 {
   "id": "mascaras-compendio",
-  "title": "Máscaras de Nyarlathotep - Compêndio de Personagens",
-  "description": "Compêndio de NPCs e Monstros de Máscaras de Nyarlathotep organizado por países (Peru, etc.) para Call of Cthulhu 7e.",
+  "title": "MÃ¡scaras de Nyarlathotep - CompÃªndio de Personagens",
+  "description": "CompÃªndio de NPCs e Monstros de MÃ¡scaras de Nyarlathotep organizado por paÃ­ses (Peru, etc.) para Call of Cthulhu 7e.",
   "version": "1.0.0",
   "authors": [
     {
@@ -20,14 +20,14 @@
         "compatibility": {}
       }
     ]
-  ],
+  },
   "esmodules": [
     "scripts/popular-compendio.js"
   ],
   "packs": [
     {
       "name": "personagens",
-      "label": "Personagens - Máscaras de Nyarlathotep",
+      "label": "Personagens - MÃ¡scaras de Nyarlathotep",
       "path": "packs/personagens",
       "type": "Actor",
       "system": "CoC7",
