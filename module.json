@@ -1,0 +1,44 @@
+{
+  "id": "mascaras-compendio",
+  "title": "Máscaras de Nyarlathotep - Compêndio de Personagens",
+  "description": "Compêndio de NPCs e Monstros de Máscaras de Nyarlathotep organizado por países (Peru, etc.) para Call of Cthulhu 7e.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Gabrielsaopa"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  ],
+  "esmodules": [
+    "scripts/popular-compendio.js"
+  ],
+  "packs": [
+    {
+      "name": "personagens",
+      "label": "Personagens - Máscaras de Nyarlathotep",
+      "path": "packs/personagens",
+      "type": "Actor",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/Gabrielsaopa/Personagens-M-scaras",
+  "manifest": "https://raw.githubusercontent.com/Gabrielsaopa/Personagens-M-scaras/main/module.json",
+  "download": "https://github.com/Gabrielsaopa/Personagens-M-scaras/archive/refs/heads/main.zip"
+}
