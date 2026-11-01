@@ -2,7 +2,7 @@
   "id": "mascaras-compendio",
   "title": "Máscaras de Nyarlathotep - Compêndio de Personagens",
   "description": "Compêndio de NPCs e Monstros de Máscaras de Nyarlathotep organizado por países para Call of Cthulhu 7e.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "authors": [{ "name": "Gabrielsaopa" }],
   "compatibility": { "minimum": "12", "verified": "14" },
   "relationships": {
